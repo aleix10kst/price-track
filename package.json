@@ -2,7 +2,9 @@
   "name": "price-track",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "husky install"
+  },
   "private": true,
   "devDependencies": {
     "@nrwl/eslint-plugin-nx": "15.7.2",
@@ -36,7 +38,8 @@
     "vite": "^4.0.1",
     "vite-plugin-eslint": "^1.8.1",
     "vite-tsconfig-paths": "^4.0.2",
-    "vitest": "^0.25.8"
+    "vitest": "^0.25.8",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "react": "18.2.0",
